@@ -264,7 +264,6 @@ img {
     font-weight: bold;
     line-height: 22px;
     margin-top: 39px;
-    /* background: #c30102 url(../images/lengbg.png) no-repeat 80% 9px; */
     background: #c30102 no-repeat 80% 9px;
 }
 
@@ -280,6 +279,85 @@ img {
 
 .language:hover a {
     display: block;
+}
+
+.call {
+    margin-top: 28px;
+    line-height: 46px;
+    margin-left: 20px;
+}
+
+.call ul {}
+
+.call li {
+    color: #777;
+    list-style: none;
+    float: left;
+    font-weight: bold;
+    padding: 0px 70px;
+    font-size: 15px;
+    position: relative;
+}
+
+.call li i {
+    position: absolute;
+    display: block;
+    left: 21px;
+    top: 0px;
+    font-size: 30px;
+    color: #AAAAAA
+}
+
+.play {
+    background: url(../images/qcode2.jpg) 15px 0px no-repeat;
+    cursor: pointer;
+    position: relative;
+}
+
+.play_box {
+    padding: 15px;
+    background: #333333;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1000;
+    width: 150px;
+    left: 5px;
+    top: 50px;
+    opacity: 1;
+    display: none;
+}
+
+.play:hover .play_box {
+    display: block !important;
+    opacity: 0.9 !important
+}
+
+.play_box .box {
+    text-align: center;
+    margin: 15px;
+    float: left
+}
+
+.play_box .box h4 {
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 16px
+}
+
+.play_box span {
+    display: block;
+    width: 0px;
+    height: 0;
+    border-bottom: 19px #333333 solid;
+    border-left: 24px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: -18px;
+    right: 40px;
+}
+
+.header_box {
+    padding: 20px 0px;
 }
 
 .sytit-wrap {
@@ -723,6 +801,25 @@ img {
 
 .footerright ul li.li6 input {
     width: 100%;
+}
+
+.container {
+    width: 1200px;
+}
+
+.footer .box {
+    padding: 40px
+}
+
+.footer .box h4 {
+    padding: 20px 0px
+}
+
+.footer .box p {}
+
+.footer .box a {
+    display: block;
+    color: #fff;
 }
 
 .copy {
