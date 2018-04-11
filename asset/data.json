@@ -1,0 +1,77 @@
+{
+    "news": [{
+            "title": "新闻一",
+            "content": "",
+            "detail": "",
+            "pictures": [
+
+            ]
+        },
+        {
+            "title": "新闻二",
+            "content": "",
+            "detail": "",
+            "pictures": [
+
+            ]
+        },
+        {
+            "title": "新闻三",
+            "content": "",
+            "detail": "",
+            "pictures": [
+
+            ]
+        },
+        {
+            "title": "新闻四",
+            "content": "",
+            "detail": "",
+            "pictures": [
+
+            ]
+        }
+    ],
+    "pro": [{
+            "title": "仪器维修",
+            "content": "",
+            "detail": [
+
+            ],
+            "pictures": [
+
+            ]
+        },
+        {
+            "title": "产品订制",
+            "content": "",
+            "detail": [
+
+            ],
+            "pictures": [
+
+            ]
+        },
+        {
+            "title": "仪器销售",
+            "content": "",
+            "detail": [
+
+            ],
+            "pictures": [
+
+            ]
+        },
+        {
+            "title": "产品四",
+            "content": "",
+            "detail": [
+
+            ],
+            "pictures": [
+
+            ]
+        }
+    ]
+
+}
