@@ -259,7 +259,7 @@ img {
 }
 
 .language {
-    width: 47px;
+    width: auto;
     font-size: 12px;
     font-weight: bold;
     line-height: 22px;
@@ -270,7 +270,7 @@ img {
 .language a {
     color: #fff;
     display: block;
-    padding-left: 10px;
+    padding: 0 10px 0 10px;
 }
 
 .language a.en {
