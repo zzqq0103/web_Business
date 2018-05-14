@@ -122,6 +122,12 @@ img {
     padding: 0 15px;
 }
 
+.repairRules{
+    width:80%;
+    margin:auto;
+    font-size: 14px;
+}
+
 .pic {
     position: relative;
     overflow: hidden;
@@ -660,6 +666,7 @@ img {
 .footer {
     background: #292929;
     padding-top: 45px;
+    margin-top: 35px;
 }
 
 .footerleft h3 {
@@ -882,14 +889,15 @@ img {
 
 .vicenavwrap .menu div ul {
     width: 150%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 
 .vicenavwrap .menu div ul li {
     float: left;
     margin: 0 10px;
     background: url(../images/list-type.jpg) no-repeat left center;
-    padding-left: 5px;
+    cursor: pointer;
+    /* padding-left: 5px; */
 }
 
 .vicenavwrap .menu div ul li a {
@@ -982,9 +990,9 @@ img {
     margin-bottom: 30px;
 }
 
-.nytit h3 {
+/* .nytit h3 {
     font-size: 18px;
-}
+} */
 
 .nytit span {
     font-family: arial;
@@ -1006,11 +1014,9 @@ img {
     background: url(../images/nynewsbg.jpg);
 }
 
-.nytit2 h3 {
+.repairRules {
     font-size: 16px;
-    font-weight: bold;
-    color: #d80808;
-    line-height: 40px;
+    line-height: 28px;
 }
 
 .nynewwrap {
@@ -2687,7 +2693,7 @@ img {
     }
     .vicenavwrap .menu div ul {
         width: 225%;
-        margin-left: -15%;
+        /* margin-left: -15%; */
     }
     .pro ul li {
         border-radius: 0;
